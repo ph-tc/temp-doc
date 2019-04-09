@@ -220,7 +220,7 @@ function showHiddenElements() {
     var windowHeight = document.documentElement.clientHeight;
 
     for ( var i = 0; i < elems.length; i++ ) {
-        if ( elems[i].getBoundingClientRect().bottom > 0 && elems[i].getBoundingClientRect().bottom <= windowHeight + 150 ) {
+        if ( elems[i].getBoundingClientRect().bottom > 0 && elems[i].getBoundingClientRect().bottom <= windowHeight ) {
             elems[i].classList.add('shown');
         }
     }
