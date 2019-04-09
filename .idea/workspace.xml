@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="767ab831-ebed-4a0a-913a-a14360f91f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -23,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
-              <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+              <caret line="175" column="52" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="2108" column="26" lean-forward="true" selection-start-line="2108" selection-start-column="26" selection-end-line="2108" selection-end-column="26" />
+            <state relative-caret-position="335">
+              <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="171" column="41" lean-forward="true" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
+            <state relative-caret-position="548">
+              <caret line="223" column="44" lean-forward="true" selection-start-line="223" selection-start-column="44" selection-end-line="223" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -74,6 +72,8 @@
       <find>nav.mobile</find>
       <find>.whycosts .conta</find>
       <find>section .container</find>
+      <find>1340</find>
+      <find>shown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,12 +149,20 @@
       <option name="presentableId" value="Default" />
       <updated>1554727419524</updated>
       <workItem from="1554727420830" duration="9653000" />
-      <workItem from="1554793455693" duration="18730000" />
+      <workItem from="1554793455693" duration="19253000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1554815666503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554815666503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28383000" />
+    <option name="totallyTimeSpent" value="28906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -182,6 +190,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/sect1r.png">
       <provider selected="true" editor-type-id="images" />
@@ -192,21 +204,21 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
-          <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+          <caret line="175" column="52" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="171" column="41" lean-forward="true" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
+        <state relative-caret-position="548">
+          <caret line="223" column="44" lean-forward="true" selection-start-line="223" selection-start-column="44" selection-end-line="223" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="2108" column="26" lean-forward="true" selection-start-line="2108" selection-start-column="26" selection-end-line="2108" selection-end-column="26" />
+        <state relative-caret-position="335">
+          <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
         </state>
       </provider>
     </entry>
