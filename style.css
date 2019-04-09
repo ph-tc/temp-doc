@@ -30,9 +30,11 @@ a {
 header {
     height: 55px;
     line-height: 55px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.7);
     font-size: 15px;
-    position: relative;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 header img {
@@ -190,13 +192,13 @@ nav li {
     /*background: linear-gradient(to bottom, rgba(23, 64, 125, 1) 0%, rgba(23, 64, 125, 0.93) 12%, rgba(23, 64, 125, 0.8) 26%, rgba(24, 64, 126, 0.59) 42%, rgba(24, 64, 126, 0.56) 44%, rgba(25, 67, 131, 0.23) 67%, rgba(25, 67, 132, 0.2) 70%, rgba(26, 71, 139, 0.11) 77%, rgba(27, 73, 144, 0.09) 79%, rgba(27, 75, 147, 0.08) 80%, rgba(27, 73, 144, 0.07) 81%, rgba(28, 77, 151, 0.06) 82%, rgba(29, 78, 154, 0.05) 83%, rgba(30, 82, 162, 0.04) 84%, rgba(31, 86, 169, 0.03) 85%, rgba(33, 90, 177, 0.03) 86%, rgba(37, 102, 201, 0.02) 87%, rgba(37, 102, 201, 0) 100%);*/
     /*!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17407d', endColorstr='#002566c9', GradientType=0);*/
-    background: url(img/sect1r-1.png) no-repeat;
-    background-size: 60%;
-    background-position: right center;
+    background: url(img/WSP-icon-Main.png) no-repeat;
+    background-size: auto 90%;
+    background-position: right 55px;
 }
 
 section .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     position: relative;
 }
@@ -329,33 +331,37 @@ h2 span {
 
 .whycosts .container {
     position: relative;
+    width: 1325px;
+    max-width: 1325px;
+    padding: 0 20px;
 }
 
 .whycosts .wrap ul {
     list-style-type: none;
     padding: 0;
+    font-size: 0;
 }
 
 .whycosts .wrap ul li {
     width: 50%;
-    display: block;
     text-align: left;
-    float: left;
+    display: inline-block;
     line-height: 63px;
     position: relative;
     margin-bottom: 50px;
     font-weight: 500;
-    -webkit-transform: translateX(70px);
-    -ms-transform: translateX(70px);
-    -o-transform: translateX(70px);
-    transform: translateX(70px);
+    /*-webkit-transform: translateX(70px);*/
+    /*-ms-transform: translateX(70px);*/
+    /*-o-transform: translateX(70px);*/
+    /*transform: translateX(70px);*/
 }
 
 .whycosts .wrap ul li img {
     width: 75px;
-    position: absolute;
+    margin-right: 30px;
+    /*position: absolute;*/
     top: 0;
-    left: -100px;
+    /*left: -100px;*/
 }
 
 .whycosts .wrap ul li span {
@@ -387,7 +393,7 @@ h2 span {
 .whycosts .pic {
     position: absolute;
     top: -360px;
-    left: -40%;
+    left: -20%;
     z-index: 0;
 }
 
@@ -399,6 +405,10 @@ h2 span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.howitworks .container {
+    width: 900px;
 }
 
 .howitworks h2 {
@@ -419,6 +429,12 @@ h2 span {
     float: left;
     margin-top: 0;
     text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.howitworks .wrap .box50.box50--show {
+    opacity: 1;
 }
 
 .howitworks .wrap .box50:nth-child(2) {
@@ -426,15 +442,15 @@ h2 span {
 }
 
 .howitworks .wrap .box50:nth-child(3) {
-    margin-top: -250px;
+    margin-top: -210px;
 }
 
 .howitworks .wrap .box50:nth-child(4) {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .howitworks .wrap .box50:nth-child(5) {
-    margin-top: -250px;
+    margin-top: -230px;
 }
 
 .howitworks .wrap .box50 .txt {
@@ -1219,7 +1235,7 @@ header ul:after {
 
 nav.mobile {
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     top: 55px;
     background: transparent;
     left: 0;
@@ -1417,7 +1433,7 @@ header {
     }
 }
 
-header nav {
+header .container nav {
     margin-left: 270px;
 }
 
@@ -1620,6 +1636,10 @@ header nav {
         max-width: 1100px;
         margin: auto
     }
+    .sect1 {
+        -webkit-background-size: auto 80%;
+        background-size: auto 80%;
+    }
     .sect1 .container {
         min-height: 0;
         height: 520px;
@@ -1635,7 +1655,7 @@ header nav {
         margin-right: 10px;
     }
     header {
-        position: absolute;
+        /*position: absolute;*/
         top: 0;
         left: 0;
         width: 100%;
@@ -1672,7 +1692,7 @@ header nav {
     }
     nav.mobile {
         display: block;
-        z-index: 2;
+        /*z-index: 2;*/
     }
     .menu-opened nav.mobile {
         -webkit-transform: translate(0, 0);
@@ -1685,9 +1705,18 @@ header nav {
         background-size: 520px;
         background-position: 103% -110%;
     }
-
-
-
+    .whycosts h2 {
+        font-size: 50px;
+    }
+    .whycosts .wrap ul li span {
+        font-size: 25px;
+    }
+    .whycosts .wrap {
+        width: 700px;
+    }
+    .whycosts .wrap ul li img {
+        width: 65px;
+    }
     h2 {
         font-size: 60px;
         line-height: 60px;
@@ -1711,6 +1740,11 @@ header nav {
     .sect1 .container,
     nav.mobile .container {
         max-width: 900px;
+    }
+    .sect1 {
+        -webkit-background-size: auto 70%;
+        background-size: auto 70%;
+        background-position: right center;
     }
     section .container {
         max-width: 800px
@@ -2072,7 +2106,7 @@ header nav {
 @media (max-width: 920px) {
     .sect1 {
         background-position: center 0;
-        background-size: auto 320px;
+        background-size: 70% auto;
     }
     .success.sect1 .container {
         padding-top: 0;
