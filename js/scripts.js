@@ -216,12 +216,12 @@ $('header nav li').on('click', function () {
 
 function showHiddenElements() {
 
-    var boxes = document.querySelectorAll('.howitworks .wrap .box50');
+    var elems = document.querySelectorAll('.hidden');
     var windowHeight = document.documentElement.clientHeight;
 
-    for ( var i = 0; i < boxes.length; i++ ) {
-        if ( boxes[i].getBoundingClientRect().bottom > 0 && boxes[i].getBoundingClientRect().bottom <= windowHeight + 150 ) {
-            boxes[i].classList.add('box50--show');
+    for ( var i = 0; i < elems.length; i++ ) {
+        if ( elems[i].getBoundingClientRect().bottom > 0 && elems[i].getBoundingClientRect().bottom <= windowHeight + 150 ) {
+            elems[i].classList.add('shown');
         }
     }
 }

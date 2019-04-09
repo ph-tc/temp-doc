@@ -178,6 +178,15 @@ nav li {
     color: #3076f4
 }
 
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.shown {
+    opacity: 1;
+}
+
 .sect1 {
     display: flex;
     justify-content: center;
@@ -429,12 +438,6 @@ h2 span {
     float: left;
     margin-top: 0;
     text-align: center;
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-.howitworks .wrap .box50.box50--show {
-    opacity: 1;
 }
 
 .howitworks .wrap .box50:nth-child(2) {
