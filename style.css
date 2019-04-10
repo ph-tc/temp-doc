@@ -2601,6 +2601,9 @@ header .container nav {
 }
 
 @media (max-width: 480px) {
+    section .container {
+        padding: 0 10px;
+    }
     .sect1 h2 {
         font-size: 7vw;
     }
