@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="767ab831-ebed-4a0a-913a-a14360f91f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="281">
+              <caret line="103" column="82" lean-forward="true" selection-start-line="103" selection-start-column="82" selection-end-line="103" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+            <state relative-caret-position="443">
+              <caret line="1712" column="5" lean-forward="true" selection-start-line="1712" selection-start-column="5" selection-end-line="1712" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="222" column="116" lean-forward="true" selection-start-line="222" selection-start-column="116" selection-end-line="222" selection-end-column="116" />
+            <state relative-caret-position="642">
+              <caret line="255" column="16" lean-forward="true" selection-start-line="255" selection-start-column="16" selection-end-line="255" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -50,26 +48,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.sect1 .container</find>
-      <find>.sect1 h2</find>
-      <find>.whycosts .wrap ul li img</find>
-      <find>.wrap ul li span</find>
-      <find>.whycosts .wrap ul li span</find>
-      <find>.howitworks</find>
-      <find>.sect1</find>
-      <find>section .c</find>
-      <find>.howitworks .wrap .box50</find>
-      <find>.whycosts .wrap ul li</find>
-      <find>header</find>
-      <find>.whycosts .conta</find>
-      <find>1340</find>
-      <find>shown</find>
-      <find>920</find>
-      <find>sect1 .wrap</find>
-      <find>howitworks .con</find>
       <find>section .container</find>
       <find>.container</find>
-      <find>box50</find>
       <find>width</find>
       <find>container</find>
       <find>pic</find>
@@ -78,8 +58,26 @@
       <find>480</find>
       <find>1120</find>
       <find>nav.mobile</find>
-      <find>.howitworks .btn-area</find>
       <find>750</find>
+      <find>1340</find>
+      <find>.sources .pic</find>
+      <find>.contacts .pic</find>
+      <find>.howitworks .btn-area</find>
+      <find>.howitworks .title</find>
+      <find>.whycosts .wrap ul li</find>
+      <find>.sect-btn</find>
+      <find>box50</find>
+      <find>.howitworks .btn-area button</find>
+      <find>.howitworks .wrap .box50 .txt</find>
+      <find>.partners .container</find>
+      <find>.partners .wrap .operators</find>
+      <find>.partners .wrap</find>
+      <find>.partners h2</find>
+      <find>.contacts .pic img</find>
+      <find>.sect1 .wrap .row a</find>
+      <find>.sect1 h2</find>
+      <find>sect-btn</find>
+      <find>.sect1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,7 +156,7 @@
       <updated>1554727419524</updated>
       <workItem from="1554727420830" duration="9653000" />
       <workItem from="1554793455693" duration="25190000" />
-      <workItem from="1554878015218" duration="9879000" />
+      <workItem from="1554878015218" duration="19105000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1554815666503</created>
@@ -188,11 +186,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554816384927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial">
+      <created>1554888157976</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554888157976</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial">
+      <created>1554897175084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554897175084</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44722000" />
+    <option name="totallyTimeSpent" value="53948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -245,22 +257,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="222" column="116" lean-forward="true" selection-start-line="222" selection-start-column="116" selection-end-line="222" selection-end-column="116" />
+        <state relative-caret-position="642">
+          <caret line="255" column="16" lean-forward="true" selection-start-line="255" selection-start-column="16" selection-end-line="255" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        <state relative-caret-position="281">
+          <caret line="103" column="82" lean-forward="true" selection-start-line="103" selection-start-column="82" selection-end-line="103" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+        <state relative-caret-position="443">
+          <caret line="1712" column="5" lean-forward="true" selection-start-line="1712" selection-start-column="5" selection-end-line="1712" selection-end-column="5" />
         </state>
       </provider>
     </entry>
