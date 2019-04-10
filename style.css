@@ -215,6 +215,7 @@ section .container {
     width: 100%;
     margin: auto;
     position: relative;
+    padding: 0 50px;
 }
 
 .sect1 .container {
