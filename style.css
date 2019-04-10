@@ -146,6 +146,11 @@ nav li {
     content: '';
 }
 
+.nav-rel {
+    position: relative;
+    z-index: 400;
+}
+
 .head-buttons .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -207,13 +212,13 @@ nav li {
 }
 
 section .container {
-    max-width: 1100px;
+    width: 90%;
     margin: auto;
     position: relative;
 }
 
 .sect1 .container {
-    max-width: 1325px;
+    /*max-width: 1325px;*/
     margin: auto;
     min-height: 570px;
 }
@@ -253,7 +258,6 @@ h2 span {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 40px;
-    margin-top: -55px;
 }
 
 .sect-btn {
@@ -340,8 +344,8 @@ h2 span {
 
 .whycosts .container {
     position: relative;
-    width: 1325px;
-    max-width: 1325px;
+    /*width: 1325px;*/
+    /*max-width: 1325px;*/
     padding: 0 20px;
 }
 
@@ -396,14 +400,21 @@ h2 span {
 
 .whycosts .wrap {
     width: 750px;
-    margin-left: 300px;
+    margin-left: 10%;
+}
+
+.whycosts .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .whycosts .pic {
-    position: absolute;
-    top: -360px;
-    left: -20%;
-    z-index: 0;
+    /*position: absolute;*/
+    /*top: -360px;*/
+    /*left: -20%;*/
+    /*z-index: 0;*/
+  width: 200px;
 }
 
 .whycosts .pic img {
@@ -417,7 +428,7 @@ h2 span {
 }
 
 .howitworks .container {
-    width: 900px;
+    width: 90%;
 }
 
 .howitworks h2 {
@@ -434,64 +445,59 @@ h2 span {
 }
 
 .howitworks .wrap .box50 {
-    width: 50%;
-    float: left;
+    /*width: 50%;*/
+    /*float: left;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
     margin-top: 0;
     text-align: center;
-}
-
-.howitworks .wrap .box50:nth-child(2) {
-    margin-top: 300px;
-}
-
-.howitworks .wrap .box50:nth-child(3) {
-    margin-top: -210px;
-}
-
-.howitworks .wrap .box50:nth-child(4) {
-    margin-top: 70px;
-}
-
-.howitworks .wrap .box50:nth-child(5) {
-    margin-top: -230px;
+    font-size: 0;
 }
 
 .howitworks .wrap .box50 .txt {
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: -50px;
-    font-size: 20px;
+    /*display: inline-block;*/
+    font-size: 40px;
     font-weight: 500;
-    line-height: 18px;
-    max-width: 210px;
-    text-align: left;
+    line-height: 40px;
+    text-align: center;
 }
 
 .howitworks .wrap .box50 .number div {
     position: relative;
     color: #408fff;
-    font-size: 110px;
+    font-size: 200px;
+    line-height: 1;
     display: block;
     font-weight: 800;
     text-align: center;
 }
 
-.howitworks .wrap .box50 .number {
+.howitworks .wrap .box50 .decr-wrap {
     display: inline-block;
-    margin-top: -80px;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.howitworks .wrap .box50 .number {
+    /*display: inline-block;*/
+    margin-bottom: 40px;
 }
 
 .howitworks .wrap .box50 img {
-    height: 400px;
+    width: 100%;
     margin: auto;
     display: block;
 }
 
 .howitworks .wrap .box50 .pic {
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    -o-transform: translateY(20px);
-    transform: translateY(20px);
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    /*-webkit-transform: translateY(20px);*/
+    /*-ms-transform: translateY(20px);*/
+    /*-o-transform: translateY(20px);*/
+    /*transform: translateY(20px);*/
 }
 
 .howitworks .wrap .box50 .number span {
@@ -540,10 +546,11 @@ h2 span {
 
 .howitworks .btn-area {
     background: url(img/btn-area.png)no-repeat center;
-    background-size: 65%;
+    background-size: contain;
     position: relative;
     text-align: center;
-    line-height: 320px;
+    line-height: 100px;
+    margin-bottom: 50px;
 }
 
 .howitworks .btn-area button {
@@ -588,6 +595,12 @@ h2 span {
     background-size: 100%;
 }
 
+.partners .container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
 .partners .title {
     width: 445px;
     float: left;
@@ -596,6 +609,7 @@ h2 span {
 .partners .wrap {
     width: 555px;
     float: right;
+  margin-left: 10%;
 }
 
 .partners .wrap .top span {
@@ -645,15 +659,21 @@ h2 span {
     float: right;
 }
 
+.traff .container {
+    display: flex;
+    justify-content: center;
+}
+
 .traff .pic {
-    position: absolute;
-    top: -65px;
-    left: -15%;
-    z-index: 0;
+    /*position: absolute;*/
+    /*top: -65px;*/
+    /*left: -15%;*/
+    /*z-index: 0;*/
+    height: 350px;
 }
 
 .traff .pic img {
-    width: 75%;
+    width: 100%;
 }
 
 .traff ul {
@@ -692,6 +712,10 @@ h2 span {
     margin-bottom: 90px;
 }
 
+.traff .wrap {
+    margin-left: 15%;
+}
+
 .sources-med {
     font-size: 40px;
     font-weight: 900;
@@ -717,10 +741,14 @@ h2 span {
     height: 700px;
 }
 
+.sources .wrap {
+    margin-left: 10%;
+}
+
 .sources .pic {
     position: absolute;
     top: -20px;
-    left: 0;
+    left: 10%;
     /*    z-index: -1*/
 }
 
@@ -800,6 +828,10 @@ h2 span {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002566c9', endColorstr='#17407d', GradientType=0);
     /* IE6-9 */
+}
+
+.contacts .wrap {
+    margin-left: 10%;
 }
 
 .contacts .pic {
@@ -1248,6 +1280,7 @@ nav.mobile {
     -o-transform: translate(0, -55px);
     transform: translate(0, -55px);
     display: none;
+    background: transparent;
 }
 
 nav.mobile ul:after {
@@ -1664,6 +1697,9 @@ header .container nav {
         width: 100%;
         z-index: 3;
     }
+    .menu-opened nav.mobile {
+        background: rgba(0, 0, 0, 0.7);
+    }
     body {
         padding-top: 55px;
     }
@@ -1812,6 +1848,9 @@ header .container nav {
         font-size: 20px;
         line-height: 20px;
     }
+    .howitworks .wrap {
+      margin-top: 50px;
+    }
     .howitworks .wrap .box50 {
         /*float: none;*/
         /*margin: auto;*/
@@ -1861,12 +1900,12 @@ header .container nav {
     .howitworks .wrap .box50:nth-child(even) {
         /*margin-top: 0;*/
     }
-    .howitworks .wrap .box50:nth-child(2) {
-        margin-top: 200px;
-    }
-    .howitworks .wrap .box50:nth-child(3) {
-        margin-top: -200px;
-    }
+    /*.howitworks .wrap .box50:nth-child(2) {*/
+    /*    margin-top: 200px;*/
+    /*}*/
+    /*.howitworks .wrap .box50:nth-child(3) {*/
+    /*    margin-top: -200px;*/
+    /*}*/
     .howitworks .wrap .box50:nth-child(3) img {
         -webkit-transform: translateY(-5px);
         -ms-transform: translateY(-5px);
@@ -1900,7 +1939,8 @@ header .container nav {
     }
     .partners h2 {
         float: none;
-        margin: auto
+        margin: auto;
+      font-size: 45px;
     }
     .partners .wrap .top span,
     .partners .wrap .top {
@@ -1953,10 +1993,17 @@ header .container nav {
         left: 0;
     }
     .sources .wrap {
+        margin-left: 0;
         text-align: center;
     }
     .sources {
         height: auto;
+    }
+    .sources-med {
+        font-size: 35px;
+    }
+    .sources-big {
+        font-size: 100px;
     }
     .sources .pic {
         text-align: center;
@@ -2000,6 +2047,9 @@ header .container nav {
     .undercontacts {
         margin-top: 45px;
 
+    }
+    .contacts .wrap {
+        margin-left: 0;
     }
     .contacts .contact-row {
         margin-bottom: 25px;
@@ -2108,7 +2158,7 @@ header .container nav {
 
 @media (max-width: 920px) {
     .sect1 {
-        background-position: center 0;
+        background-position: center 55px;
         background-size: 70% auto;
     }
     .success.sect1 .container {
@@ -2190,6 +2240,9 @@ header .container nav {
     .head-buttons {
         display: none;
     }
+    .menu-opened nav.mobile {
+        background: #0f2243
+    }
     .container {
         padding: 0 10px;
     }
@@ -2197,7 +2250,6 @@ header .container nav {
         display: none;
     }
     header {
-        background: transparent;
         box-shadow: none
     }
     nav.mobile {
@@ -2279,7 +2331,7 @@ header .container nav {
     }
     h2 {
         font-size: 25px;
-        line-height: 29px;
+        line-height: 35px;
     }
     .sect1 h2 {
         margin-bottom: 20px;
@@ -2295,12 +2347,16 @@ header .container nav {
         font-weight: 900;
         letter-spacing: -0.5px;
     }
+    .whycosts .container {
+      flex-direction: column;
+    }
     .whycosts .wrap ul li span {
         font-size: 15px;
     }
     .whycosts .pic {
-        margin-top: -75px;
-        margin-bottom: -50px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+      width: 100px;
     }
     .whycosts .pic img {
         width: 100%;
@@ -2312,9 +2368,13 @@ header .container nav {
         width: auto;
     }
     .howitworks .wrap .box50 {
-        float: none;
+        /*float: none;*/
+        flex-direction: column;
         margin: auto;
         width: auto;
+    }
+    .howitworks .wrap .box50 .pic {
+      margin-bottom: 50px;
     }
     .howitworks .wrap .box50:nth-child(even),
     .howitworks .wrap .box50:nth-child(odd){
@@ -2325,18 +2385,25 @@ header .container nav {
         display: block;
         clear: both;
     }
+    .partners .container {
+        flex-direction: column;
+    }
     .partners h2 {
         width: auto;
+        margin-bottom: 30px;
     }
     .howitworks .wrap .box50 .number {
         margin-top: -30px;
         padding-bottom: 0;
     }
     .howitworks .wrap .box50 {
-        margin-bottom: 45px;
+        margin-bottom: 25px;
     }
     .partners .wrap .operators a {
         margin: 0 10px 35px;
+    }
+    .traff .container {
+        flex-direction: column;
     }
     .traff .pic img {
         width: 100%;
@@ -2446,6 +2513,12 @@ header .container nav {
 @media (max-width: 480px) {
     .whycosts h2 {
         font-size: 30px;
+    }
+    .howitworks .wrap .box50 .pic {
+        width: 100%;
+    }
+    .howitworks .wrap .box50 .decr-wrap {
+        width: 100%;
     }
     .modal-content .wrap {
         padding: 10px 0px 15px;

@@ -220,7 +220,7 @@ function showHiddenElements() {
     var windowHeight = document.documentElement.clientHeight;
 
     for ( var i = 0; i < elems.length; i++ ) {
-        if ( elems[i].getBoundingClientRect().bottom > 0 && elems[i].getBoundingClientRect().bottom <= windowHeight ) {
+        if ( elems[i].getBoundingClientRect().bottom > 0 && elems[i].getBoundingClientRect().top <= windowHeight + 50) {
             elems[i].classList.add('shown');
         }
     }
@@ -228,3 +228,38 @@ function showHiddenElements() {
 
 showHiddenElements();
 window.onscroll = showHiddenElements;
+
+//slider
+$(document).ready(function(){
+    var slickSlider = $(".slider");
+    slickSlider.slick({
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    dots: true
+                }
+            }
+        ]
+    });
+
+    slickSlider.mousewheel(function(e) {
+        if (e.deltaY < 0) {
+            if($(this).slick('slickCurrentSlide') == $(this).find('.box50').length - 1) {
+                return
+            }
+
+            e.preventDefault()
+            $(this).slick('slickNext')
+        } else {
+            if($(this).slick('slickCurrentSlide') == 0) {
+                return
+            }
+
+            e.preventDefault()
+            $(this).slick('slickPrev')
+        }
+    });
+});
