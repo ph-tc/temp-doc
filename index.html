@@ -73,11 +73,11 @@
 -->
                 <nav>
                     <ul data-animate="1">
-                        <li dot="2">Почему мы?</li>
-                        <li dot="3">Как это работает?</li>
-                        <li dot="4">Партнёры</li>
-                        <li dot="5">Трафик</li>
-                        <li dot="7">Контакты</li>
+                        <li onclick="scrolltowhy()">Почему мы?</li>
+                        <li onclick="scrolltohow()">Как это работает?</li>
+                        <li onclick="scrolltopartners()">Партнёры</li>
+                        <li onclick="scrolltotraff()">Трафик</li>
+                        <li onclick="scrolltocontacts()">Контакты</li>
 
                         <!--                    <li dot="7">О нас пишут</li>-->
                     </ul>
@@ -134,7 +134,7 @@
                     <div class="container clear" data-animate>
                         <div class="title">
                             <h2 class="hidden">Как это работает?</h2>
-                            <span>5 простых шагов для получения профита с мобильного трафика</span>
+                            <span class="hidden">5 простых шагов для получения профита с мобильного трафика</span>
                         </div>
                         <div class="wrap clear hidden slider">
                             <div class="box50 clear">
@@ -200,14 +200,14 @@
 <!--                        <p>Зарегистрируйтесь в партнерской программе</p>-->
                         <div class="btn-area">
 
-                            <button class="sect-btn" onclick="showreg()">Зарегистрироваться</button>
+                            <button class="sect-btn yellow-btn" onclick="showreg()">Зарегистрироваться</button>
                         </div>
                     </div>
                 </section>
                 <section class="partners clear">
                     <div class="container clear" data-animate>
                         <div class="title">
-                            <h2 class="hidden">Наши<br>партнёры</h2>
+                            <h2 class="hidden">Наши партнёры</h2>
                         </div>
                         <div class="wrap clear">
                             <div class="top">
@@ -464,7 +464,7 @@
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
-<!--    <script src="js/scroll.js"></script>-->
+    <script src="js/scroll.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/scripts.js"></script>

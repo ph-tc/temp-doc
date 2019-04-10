@@ -185,7 +185,7 @@ nav li {
 
 .hidden {
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 1.5s ease-in;
 }
 
 .shown {
@@ -284,11 +284,16 @@ h2 span {
 }
 
 .sect1 .wrap .row a {
+    padding: 25px 50px;
     color: #59e3ff;
+    font-weight: bold;
+    line-height: 1;
     -webkit-transition: transform 0.4s ease;
     -o-transition: transform 0.4s ease;
     transition: transform 0.4s ease;
     display: inline-block;
+    border: 2px solid #59e3ff;
+    border-radius: 100px;
 }
 
 /*
@@ -361,7 +366,6 @@ h2 span {
     display: inline-block;
     line-height: 63px;
     position: relative;
-    margin-bottom: 50px;
     font-weight: 500;
     /*-webkit-transform: translateX(70px);*/
     /*-ms-transform: translateX(70px);*/
@@ -431,6 +435,10 @@ h2 span {
     width: 90%;
 }
 
+.slider {
+    margin-bottom: 50px;
+}
+
 .howitworks h2 {
     /*    max-width: 300px;*/
     margin-bottom: 30px;
@@ -447,9 +455,9 @@ h2 span {
 .howitworks .wrap .box50 {
     /*width: 50%;*/
     /*float: left;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0;
     text-align: center;
     font-size: 0;
@@ -457,9 +465,9 @@ h2 span {
 
 .howitworks .wrap .box50 .txt {
     /*display: inline-block;*/
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -475,7 +483,7 @@ h2 span {
 
 .howitworks .wrap .box50 .decr-wrap {
     display: inline-block;
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
 }
 
@@ -493,7 +501,7 @@ h2 span {
 .howitworks .wrap .box50 .pic {
     display: inline-block;
     vertical-align: middle;
-    width: 60%;
+    width: 35%;
     /*-webkit-transform: translateY(20px);*/
     /*-ms-transform: translateY(20px);*/
     /*-o-transform: translateY(20px);*/
@@ -549,12 +557,12 @@ h2 span {
     background-size: contain;
     position: relative;
     text-align: center;
-    line-height: 100px;
-    margin-bottom: 50px;
+    line-height: 1;
+    margin-bottom: 100px;
 }
 
 .howitworks .btn-area button {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);*/
     vertical-align: middle;
     margin: auto;
     position: relative;
@@ -564,6 +572,7 @@ h2 span {
     float: none;
     width: auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .howitworks .title h2 {
@@ -592,24 +601,23 @@ h2 span {
     height: 100%;
     z-index: -1;
     background: url(img/partnersbg.png)no-repeat;
-    background-size: 100%;
+    background-size: contain;
 }
 
 .partners .container {
   display: flex;
-  justify-content: center;
-  align-items: top;
+    flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .partners .title {
-    width: 445px;
     float: left;
 }
 
 .partners .wrap {
-    width: 555px;
+    width: 70%;
     float: right;
-  margin-left: 10%;
 }
 
 .partners .wrap .top span {
@@ -617,10 +625,19 @@ h2 span {
     display: inline-block;
     vertical-align: bottom;
     line-height: 25px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .partners .wrap .top {
     line-height: 110px;
+    margin-bottom: 20px;
+}
+
+.partners .wrap .operators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .partners .wrap .operators a {
@@ -632,8 +649,7 @@ h2 span {
     background: #fff;
     box-shadow: 0 0 25px rgba(64, 191, 255, 0.9);
     display: block;
-    float: left;
-    margin: 30px 55px 30px 0;
+    margin: 30px 30px 0;
     padding: 0;
     border: none;
     -webkit-box-sizing: border-box;
@@ -655,8 +671,10 @@ h2 span {
 }
 
 .partners h2 {
-    width: 350px;
+    /*width: 350px;*/
     float: right;
+    text-align: center;
+    font-size: 50px;
 }
 
 .traff .container {
@@ -748,7 +766,7 @@ h2 span {
 .sources .pic {
     position: absolute;
     top: -20px;
-    left: 10%;
+    right: -200px;
     /*    z-index: -1*/
 }
 
@@ -837,12 +855,22 @@ h2 span {
 .contacts .pic {
     position: absolute;
     z-index: 0;
-    top: -75px;
-    right: -170px;
+    top: -150px;
+    right: 70px;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1) rotate(-2deg);
+    }
+    to {
+        transform: scale(1.05) rotate(2deg);
+    }
 }
 
 .contacts .pic img {
-    width: 75%;
+    width: 100%;
+    animation: scale 3s ease-in-out infinite alternate;
 }
 
 .contacts .contact-row a {
@@ -1643,6 +1671,28 @@ header .container nav {
 /* ------ END MODAL ON LOW HIGH SCREEN ------*/
 
 /* ------ MAIN MEDIA REQUESTS ------ */
+@media (max-width: 1500px) {
+    .whycosts h2 {
+        font-size: 45px;
+    }
+
+    .whycosts .wrap ul li span {
+        font-size: 23px;
+    }
+
+    .whycosts .wrap ul li img {
+        width: 50px;
+    }
+
+    .contacts .pic {
+        top: -75px;
+        right: -75px;
+    }
+
+    .contacts .pic img {
+        width: 75%;
+    }
+}
 
 @media (max-width: 1349px) {
     /*section {*/
@@ -1744,12 +1794,6 @@ header .container nav {
         background-size: 520px;
         background-position: 103% -110%;
     }
-    .whycosts h2 {
-        font-size: 50px;
-    }
-    .whycosts .wrap ul li span {
-        font-size: 25px;
-    }
     .whycosts .wrap {
         width: 700px;
     }
@@ -1770,6 +1814,13 @@ header .container nav {
     }
     .sect-btn {
 
+    }
+    .sources .pic {
+        top: 50px;
+        right: -450px;
+    }
+    .sources .pic img {
+        width: 80%;
     }
 
 }
@@ -1826,7 +1877,6 @@ header .container nav {
     }
 
     .whycosts .wrap ul li {
-        margin-bottom: 20px;
         text-align: center;
         -webkit-transform: none;
         -ms-transform: none;
@@ -1887,7 +1937,9 @@ header .container nav {
         float: none;
         display: block;
         margin-right: 0;
-
+    }
+    .howitworks .wrap .box50 .decr-wrap {
+        margin-left: 50px;
     }
     .howitworks .wrap .box50 .number div {
         position: relative;
@@ -1940,7 +1992,6 @@ header .container nav {
     .partners h2 {
         float: none;
         margin: auto;
-      font-size: 45px;
     }
     .partners .wrap .top span,
     .partners .wrap .top {
@@ -1951,10 +2002,9 @@ header .container nav {
         margin: auto
     }
     .partners .wrap .operators a {
-        margin: 0 10px 35px;
+        /*margin: 0 10px 35px;*/
     }
     .partners .wrap .operators {
-        width: 320px;
         margin: 25px auto 0;
     }
     .traff .pic {
@@ -2203,6 +2253,7 @@ header .container nav {
         display: none;
     }
     .sect1 .wrap .row a {
+        padding: 20px 40px;
         width: 130px;
         display: block;
         text-align: center;
@@ -2375,6 +2426,11 @@ header .container nav {
     }
     .howitworks .wrap .box50 .pic {
       margin-bottom: 50px;
+        width: 100%;
+    }
+    .howitworks .wrap .box50 .decr-wrap {
+        width: 100%;
+        margin-left: 0;
     }
     .howitworks .wrap .box50:nth-child(even),
     .howitworks .wrap .box50:nth-child(odd){
@@ -2384,9 +2440,6 @@ header .container nav {
         content: '';
         display: block;
         clear: both;
-    }
-    .partners .container {
-        flex-direction: column;
     }
     .partners h2 {
         width: auto;
@@ -2399,8 +2452,14 @@ header .container nav {
     .howitworks .wrap .box50 {
         margin-bottom: 25px;
     }
+    .partners h2 {
+        font-size: 35px;
+    }
+    .partners .wrap .top span {
+        font-size: 20px;
+    }
     .partners .wrap .operators a {
-        margin: 0 10px 35px;
+        margin: 30px 30px 0;
     }
     .traff .container {
         flex-direction: column;
