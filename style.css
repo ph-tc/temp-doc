@@ -226,7 +226,7 @@ section .container {
 h2 {
     font-size: 50px;
     margin: 0;
-    line-height: 55px;
+    line-height: 1;
     font-weight: 600;
 }
 
@@ -242,14 +242,14 @@ h2 span {
 }
 
 .sect1 h2 {
-    font-size: 35px;
+    font-size: 2.7vw;
     font-weight: bold;
     /*max-width: 43%;*/
     margin-bottom: 40px;
 }
 
 .sect1 h2 span {
-    font-size: 50px;
+    font-size: 2.6vw;
 }
 
 .sect1 p {
@@ -267,11 +267,11 @@ h2 span {
 }
 
 .sect-btn {
-    font-size: 18px;
+    font-size: 1.2vw;
     font-weight: bold;
     color: #fff;
     display: inline-block;
-    padding: 25px 50px;
+    padding: 2vw 5vw;
     border-radius: 150px;
     border: none;
     cursor: pointer;
@@ -290,7 +290,7 @@ h2 span {
 }
 
 .sect1 .yellow-btn {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
 }
 
 .sect1 .wrap .row a {
@@ -1733,8 +1733,8 @@ header .container nav {
         margin: auto
     }
     .sect1 {
-        -webkit-background-size: auto 80%;
-        background-size: auto 80%;
+        /*-webkit-background-size: auto 80%;*/
+        /*background-size: auto 80%;*/
     }
     .sect1 .container {
         min-height: 0;
@@ -1812,15 +1812,19 @@ header .container nav {
     }
     h2 {
         font-size: 60px;
-        line-height: 60px;
+        /*line-height: 60px;*/
     }
     h2 span {
         display: block;
     }
     .sect1 h2 {
-        font-size: 40px;
+        font-size: 2.7vw;
+        /*line-height: 25px;*/
         /*max-width: 100%;*/
-        max-width: 50%;
+        /*max-width: 50%;*/
+    }
+    .sect1 h2 span {
+        font-size: 3vw;
     }
     .sect-btn {
 
@@ -1845,6 +1849,12 @@ header .container nav {
         -webkit-background-size: auto 70%;
         background-size: auto 70%;
         background-position: right center;
+    }
+    .sect1 h2 span {
+        font-size: 3.5vw;
+    }
+    .sect1 h2 {
+        font-size: 3.2vw;
     }
     section .container {
         max-width: 800px
@@ -2241,9 +2251,11 @@ header .container nav {
         height: auto
     }
     .sect1 h2 {
-        max-width: none;
         width: 80%;
-        margin: 0 auto;
+        margin: 0 auto 40px;
+    }
+    .sect1 .yellow-btn {
+        margin-left: 0;
     }
     h2 span {
         font-size: 24px;
@@ -2270,7 +2282,7 @@ header .container nav {
         margin: 20px auto
     }
     .sect-btn {
-        padding: 20px 45px;
+        font-size: 3vw;
     }
     .container {
         padding: 0 15px;
@@ -2321,6 +2333,12 @@ header .container nav {
     }
     .sect1 .container {
         background-position: 53% 35px;
+    }
+    .sect1 h2 span {
+        font-size: 6vw;
+    }
+    .sect1 h2 {
+        font-size: 5vw;
     }
     .menubtn span,
     .menubtn span:before,
@@ -2397,6 +2415,9 @@ header .container nav {
     .sect1 h2 {
         margin-bottom: 20px;
     }
+    .sect1 h2 span {
+        /*line-height: 1;*/
+    }
     .sect1 .container {
         background-size: 310px;
         background-position: 55% 50px;
@@ -2405,7 +2426,6 @@ header .container nav {
         display: block;
         font-size: 24px;
         line-height: 28px;
-        font-weight: 900;
         letter-spacing: -0.5px;
     }
     .whycosts .container {
@@ -2580,6 +2600,16 @@ header .container nav {
 }
 
 @media (max-width: 480px) {
+    .sect1 h2 {
+        font-size: 7vw;
+    }
+    .sect1 h2 span {
+        font-size: 8vw;
+    }
+    .sect-btn {
+        font-size: 5vw;
+        padding: 4vw 6vw;
+    }
     .whycosts h2 {
         font-size: 30px;
     }
